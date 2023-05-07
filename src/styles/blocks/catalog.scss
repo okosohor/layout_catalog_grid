@@ -6,28 +6,15 @@
   justify-items: center;
   gap: $card-margin-y $card-margin-x;
   max-width: min-content;
-  margin: 0 auto;
-
-  // USED GAP INSTEAD OF IT
-  // &__part{
-  //   margin-right: $card-margin-x;
-  //   margin-bottom: $card-margin-y;
-  // }
 
   @media (min-width: 488px) {
-    & {
-      grid-template-columns: repeat(2, 1fr);
-    }
+    grid-template-columns: repeat(2, 1fr);
   }
 
   @media (min-width: 768px) {
-    & {
-      grid-template-columns: repeat(3, 1fr);
-    }
+    grid-template-columns: repeat(3, 1fr);
   }
   @media (min-width: 1024px) {
-    & {
-      grid-template-columns: repeat(4, 1fr);
-    }
+    grid-template-columns: repeat(4, 1fr);
   }
 }
